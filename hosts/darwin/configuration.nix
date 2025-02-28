@@ -8,9 +8,9 @@
     ../../modules/homebrew
   ];
 
-  services = {
-    nix-daemon.enable = true;
-  };
+  # services = {
+  #   nix-daemon.enable = true;
+  # };
 
   system.defaults = {
     dock = {
